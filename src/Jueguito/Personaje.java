@@ -92,6 +92,9 @@ public abstract class Personaje extends ObjetoMovil {
     //Se trabaja en sus subclases
     public abstract void disparar(Personaje objetivo);
     
+    public abstract void disparar();
+    
+    
     protected void morir() {
         this.x = -1;
         this.y = -1;

@@ -4,7 +4,7 @@ package Jueguito;
  *
  * @author ian
  */
-public class ElementoJuego {
+public abstract class ElementoJuego {
     
     protected int x;
     protected int y;

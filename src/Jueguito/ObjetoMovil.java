@@ -4,7 +4,7 @@ package Jueguito;
  *
  * @author ian
  */
-public class ObjetoMovil extends ElementoJuego {
+public abstract class ObjetoMovil extends ElementoJuego {
     
     public ObjetoMovil(int x, int y) {
         super(x, y);
